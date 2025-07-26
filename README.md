@@ -57,10 +57,10 @@ Admite entrada de datos en formato **JSON** y **XML**, y utiliza **SQLite** como
    ```
 
    Luego añadir la ruta del directorio `src` al proyecto en:
-   Ej: C:\Users\Administrador\Desktop\Project Delphi\horse\src
    ```
    Project > Options > Delphi Compiler > Search Path
    ```
+    Ej: C:\Users\Administrador\Desktop\Project Delphi\horse\src
 2. **Jhonson** (para entrada en JSON)
    - [https://github.com/HashLoad/jhonson.git](https://github.com/HashLoad/jhonson.git)
 
@@ -70,6 +70,9 @@ Admite entrada de datos en formato **JSON** y **XML**, y utiliza **SQLite** como
    ```
 
    Luego añadir la ruta del directorio `src` al proyecto en:
+   ```
+   Project > Options > Delphi Compiler > Search Path
+   ```
    Ej: C:\Users\Administrador\Desktop\Project Delphi\jhonson\src
 
 3. **OmniXML** (para entrada en XML si no tienes MSXML)
@@ -79,8 +82,11 @@ Admite entrada de datos en formato **JSON** y **XML**, y utiliza **SQLite** como
    ```bash
    git clone https://github.com/mremec/omnixml.git
    ```
-
-   Añadir al Search Path: el directorio `OmniXML`.
+	
+	Luego añadir la ruta del directorio `omnixml` al proyecto en:
+   ```
+   Project > Options > Delphi Compiler > Search Path
+   ```
    Ej: C:\Users\Administrador\Desktop\Project Delphi\omnixml
 
 ---
