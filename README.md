@@ -148,7 +148,7 @@ Admite entrada de datos en formato **JSON** y **XML**, y utiliza **SQLite** como
 {
     "error": "La suma del debe (400,00) no coincide con la suma del haber (4060,00)"
 }
-```json
+```
 ###  GET `/api/operaciones/:id`
 
 Devuelve los datos de una operación contable por su ID.
